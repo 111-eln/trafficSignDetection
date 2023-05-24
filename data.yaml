@@ -1,0 +1,42 @@
+names:
+- -Road narrows on right
+- Attention Please-
+- Beware of children
+- CYCLE ROUTE AHEAD WARNING
+- Dangerous Left Curve Ahead
+- Dangerous Rright Curve Ahead
+- End of all speed and passing limits
+- Give Way
+- Go Straight or Turn Right
+- Go straight or turn left
+- Keep-Left
+- Keep-Right
+- Left Zig Zag Traffic
+- No Entry
+- Overtaking by trucks is prohibited
+- Park
+- Pedestrian Crossing
+- Round-About
+- Sag Mecburi
+- Slippery Road Ahead
+- Speed Limit 30 KMPh
+- Speed Limit 60 KMPh
+- Stop_Sign
+- Straight Ahead Only
+- Traffic_signal
+- Truck traffic is prohibited
+- Turn left ahead
+- Turn right ahead
+- Uneven Road
+- object
+- undefined
+nc: 31
+roboflow:
+  license: CC BY 4.0
+  project: kl3
+  url: https://universe.roboflow.com/uludag-university-iaors/kl3/dataset/1
+  version: 1
+  workspace: uludag-university-iaors
+test: ../test/images
+train: kl3-1/train/images
+val: kl3-1/valid/images
